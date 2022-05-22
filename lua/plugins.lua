@@ -45,9 +45,8 @@ return require('packer').startup(function()
 
     -- On-demand loading
     use 'scrooloose/nerdtree'
-    --
     --nerd commenter
-    use 'preservim/nerdcommenter'
+	use { 'tpope/vim-commentary' }
 
     --nerdtree icons
     --use 'ryanoasis/vim-devicons'
